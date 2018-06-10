@@ -1,6 +1,6 @@
 This explorer is forked from Luke's Explorer (https://github.com/iquidus/explorer)  with a bit of flavoring from https://github.com/masterhash-us/Explorer, which seems to be gone now. Cleaning up README.md. History can be found in the first upload commit.
 
-Iquidus Explorer - 1.6.1
+NodeCash Blockchain Explorer - v0.1.0
 ================
 
 An open source block explorer written in node.js.
