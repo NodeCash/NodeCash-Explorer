@@ -31,11 +31,11 @@ Create user with read/write access:
 
 ### Get the source
 
-    git clone https://github.com/SigwoTechnologies/explorer
+    git clone https://github.com/NodeCash/NodeCash-Explorer
 
 ### Install node modules
 
-    cd explorer && npm install --production
+    cd NodeCash-Explorer && npm install --production
 
 ### Configure
 
@@ -85,9 +85,9 @@ sync.js (located in scripts/) is used for updating the local databases. This scr
 
 *Example crontab; update index every minute and market data every 2 minutes*
 
-    */1 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
-    */2 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
-    */5 * * * * cd /path/to/explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
+    */1 * * * * cd /path/to/NodeCash-Explorer && /usr/bin/nodejs scripts/sync.js index update > /dev/null 2>&1
+    */2 * * * * cd /path/to/NodeCash-Explorer && /usr/bin/nodejs scripts/sync.js market > /dev/null 2>&1
+    */5 * * * * cd /path/to/NodeCash-Explorer && /usr/bin/nodejs scripts/peers.js > /dev/null 2>&1
 
 ### Wallet
 
@@ -128,6 +128,7 @@ Where [SIZE] is an integer higher than the default.
 
 ### License
 
+Copyright (c) 2018, NodeCash Developers
 Copyright (c) 2015, Iquidus Technology  
 Copyright (c) 2015, Luke Williams  
 All rights reserved.
