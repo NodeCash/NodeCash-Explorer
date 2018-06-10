@@ -224,3 +224,10 @@ tr {
 .coin-info .row.earnings {
 	margin-bottom: 5px;
 }
+
+#twitter-icon, 
+#bitcoin-icon, 
+#website-icon, 
+#github-icon{
+	font-size: 20px;
+}
